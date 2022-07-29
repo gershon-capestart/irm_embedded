@@ -2,7 +2,6 @@
 #include <MFRC522.h>
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
-#include "constants.cpp"
 
 constexpr uint8_t RST_PIN = D3;     
 constexpr uint8_t SS_PIN = D4;  
